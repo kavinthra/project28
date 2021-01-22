@@ -20,6 +20,7 @@ class Tree{
      translate(pos.x,pos.y+10);
      imageMode(CENTER);
      image(this.image,0,-this.treeHeight/2,this.treeWidth, this.treeHeight);
+     pop();
     }
 
 }
